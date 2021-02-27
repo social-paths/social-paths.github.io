@@ -1,0 +1,15 @@
+---
+title: New Post
+author: Marcelo Avila
+date: '2021-02-27'
+slug: []
+categories: []
+tags: []
+---
+
+```{r}
+
+plot(1)
+
+```
+
