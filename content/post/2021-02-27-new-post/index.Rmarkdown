@@ -8,8 +8,12 @@ tags: []
 ---
 
 ```{r}
+library(ggplot2)
+library(patchwork)
 
-plot(1)
+p1 <- ggplot(mtcars) + geom_point(aes(mpg, disp))
+p2 <- ggplot(mtcars) + geom_boxplot(aes(gear, disp, group = gear))
 
+p1 + p2
 ```
 
