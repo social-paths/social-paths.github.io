@@ -2,8 +2,69 @@ theme: "hugo-PaperMod"
 baseURL: https://social-paths.github.io/
 languageCode: en-us
 title: Social Paths
+outputs:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    description: "Social Paths"
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
 
+languages:
+    en:
+        languageName: "English"
+        weight: 1
+        menu:
+            main:
+                - name: Arquivo
+                  url: archives
+                  weight: 5
+                - name: Busca
+                  url: search/
+                  weight: 10
+                - name: Tags
+                  url: tags/
+                  weight: 10
+                - name: Categorias
+                  url: categories/
+                  weight: 10
+
+
+params:
+    fuseOpts: # search options
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary", "content"]
+    # optional options
+    ShowShareButtons: false
+    ShowReadingTime: true
+    # disableSpecial1stPost: true
+    displayFullLangName: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowToc: true
+    
+    
+    
+    
+    profileMode: # disabled
+        enabled: false
+        title: PaperMod
+        imageUrl: "#"
+        imageTitle: my image
+        # imageWidth: 120
+        # imageHeight: 120
+        buttons:
+            - name: Archives
+              url: archives
+            - name: Tags
+              url: tags
+    
 markup:
   goldmark:
     renderer:
-      unsafe: true
+      unsafe: true # for some stuff! necessary!
