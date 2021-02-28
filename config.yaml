@@ -1,6 +1,6 @@
 theme: "hugo-PaperMod"
 baseURL: https://social-paths.github.io/
-languageCode: en-us
+# languageCode: en-us
 title: Social Paths
 outputs:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -16,10 +16,11 @@ languages:
         weight: 1
         menu:
             main:
-                - name: Arquivo
-                  url: archives
-                  weight: 5
+                # - name: Arquivo
+                #   url: archives/
+                #   weight: 5
                 - name: Busca
+                  pre: "a"
                   url: search/
                   weight: 10
                 - name: Tags
@@ -28,9 +29,31 @@ languages:
                 - name: Categorias
                   url: categories/
                   weight: 10
-
+                - name: Sobre 
+                  url: about/
+                  weight: 20
+                  
 
 params:
+
+    homeInfoParams:
+        Title: "Olá \U0001F44B"
+        Content: >
+            - Bem vindo ao [repositório](https://github.com/social-paths/social-paths.github.io) de conteúdos relacionados à pesquisa em Economia e Ciências
+            Socials Aplicadas. Este repositório visa reunir recursos e ferramentas que 
+            auxiliam o pesquisador e pesquisadora na condução de um trabalho empírico. Os tópicos 
+            de interesse são:
+            
+            - • **Programação** (R, stata, python, git, linux shell, etc)
+
+            - • Base de **Dados** (onde encontrar e como trabalhar com eles) 
+            
+            - • Resultados recentes em econometria (aplicada), inferência causal etc. 
+          
+    socialIcons: # optional
+        - name: "github"
+          url: "https://github.com/organizations/social-paths/"
+
     fuseOpts: # search options
         isCaseSensitive: false
         shouldSort: true
@@ -49,21 +72,7 @@ params:
     ShowToc: true
     
     
-    
-    
-    profileMode: # disabled
-        enabled: false
-        title: PaperMod
-        imageUrl: "#"
-        imageTitle: my image
-        # imageWidth: 120
-        # imageHeight: 120
-        buttons:
-            - name: Archives
-              url: archives
-            - name: Tags
-              url: tags
-    
+
 markup:
   goldmark:
     renderer:

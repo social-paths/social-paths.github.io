@@ -2,12 +2,14 @@
 title: Pacote {patchwork}
 author: Marcelo Avila
 date: '2021-02-27'
-slug: [/R/]
+# slug: [/R/]
 categories: [R]
-tags: [R, ggplot, gráficos, pacote]
+tags: [R, ggplot, gráficos, r-pacotes]
+showToc: false
 ---
 
-O objetivo do `{patchwork}` é tornar ridiculamente simples combinar ggplots separados no mesmo gráfico. Como tal, ele tenta resolver o mesmo problema que `gridExtra::grid.arrange()` e `cowplot::plot_grid`, mas usando uma API que incita exploração e iteração e escala para layouts arbitrariamente complexos. 
+O objetivo do `{patchwork}` é tornar ridiculamente simples combinar ggplots separados no mesmo gráfico. Como tal, ele tenta resolver o mesmo problema que `gridExtra::grid.arrange()` e `cowplot::plot_grid()`, mas usando uma API que incita exploração e iteração e escala para layouts arbitrariamente complexos. 
+
 
 ## Instalação 
 
