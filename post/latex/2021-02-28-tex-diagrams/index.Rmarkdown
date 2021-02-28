@@ -1,0 +1,15 @@
+---
+title: Diagramas em LaTeX
+author: Marcelo Avila
+date: '2021-02-28'
+slug: []
+categories: []
+tags: []
+showToc: true
+---
+
+## TikZ para a Economia 
+
+Conteudo do professor de economia Chiu Yu Ko com vários diagramas em [TikZ](https://www.overleaf.com/learn/latex/TikZ_package) com exemplos em tópicos relacionados à economia. 
+
+https://sites.google.com/site/kochiuyu/Tikz
