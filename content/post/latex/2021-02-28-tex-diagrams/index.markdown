@@ -3,12 +3,14 @@ title: Diagramas em LaTeX
 author: Marcelo Avila
 date: '2021-02-28'
 slug: []
-categories: []
-tags: []
+categories: [latex]
+tags: [latex, diagramas, economia, tikz]
 showToc: true
 ---
 
-## TikZ para a Economia 
+## TikZ para a economia 
+
+TikZ (acrônimo recursivo do do alemão TikZ ist kein Zeichenprogramm, pt: TikZ não é um programa de desenhar) é um programa ou uma linguagem para desenhar gráficos para o LaTeX. A linguagem é bastante complexa e o uso de templates 
 
 Conteudo do professor de economia Chiu Yu Ko com vários diagramas em [TikZ](https://www.overleaf.com/learn/latex/TikZ_package) com exemplos em tópicos relacionados à economia. 
 
