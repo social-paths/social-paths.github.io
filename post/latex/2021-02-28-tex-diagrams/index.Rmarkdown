@@ -10,8 +10,8 @@ showToc: true
 
 ## TikZ para a economia 
 
-TikZ (acrônimo recursivo do do alemão TikZ ist kein Zeichenprogramm, pt: TikZ não é um programa de desenhar) é um programa ou uma linguagem para desenhar gráficos para o LaTeX. A linguagem é bastante complexa e o uso de templates 
+TikZ (acrônimo recursivo do do alemão TikZ ist kein Zeichenprogramm, pt: TikZ não é um programa de desenhar) é um programa ou uma linguagem para desenhar gráficos para o LaTeX. A linguagem pode ser bastante complexa e uso e adaptação de templates pode ajudar na convecção de diagramas similares. 
 
-Conteudo do professor de economia Chiu Yu Ko com vários diagramas em [TikZ](https://www.overleaf.com/learn/latex/TikZ_package) com exemplos em tópicos relacionados à economia. 
+O professor de economia Chiu Yu Ko disponibilizou vários diagramas relacionados à modelos básicos em micro, macroeconomia, teoria de jogos, entre muitos outros. 
 
 https://sites.google.com/site/kochiuyu/Tikz
