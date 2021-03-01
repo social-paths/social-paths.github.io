@@ -52,7 +52,7 @@ params:
           
     socialIcons: # optional
         - name: "github"
-          url: "https://github.com/organizations/social-paths/"
+          url: "https://github.com/orgs/social-paths/"
 
     fuseOpts: # search options
         isCaseSensitive: false
